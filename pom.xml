@@ -7,6 +7,15 @@
     <groupId>com.example.ishop</groupId>
     <artifactId>example-ishop-spring</artifactId>
     <description>Example of online-shop to study Java Spring Framework</description>
+    <modules>
+        <module>example-ishop-spring-common</module>
+        <module>example-ishop-spring-db</module>
+        <module>example-ishop-spring-core</module>
+        <module>example-ishop-spring-rest-api</module>
+        <module>example-ishop-spring-message</module>
+        <module>example-ishop-spring-web-ui</module>
+        <module>example-ishop-spring-tests</module>
+    </modules>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
