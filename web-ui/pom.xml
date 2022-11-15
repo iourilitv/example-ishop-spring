@@ -9,8 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>example-ishop-spring-core</artifactId>
-    <description>Backend server app</description>
+    <artifactId>web-ui</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
