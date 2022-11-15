@@ -9,8 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>example-ishop-spring-rest-api</artifactId>
-    <description>REST interface. Endpoints and OpenApi(Swagger 3.0) docs</description>
+    <artifactId>server</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>server-core</module>
+        <module>server-db</module>
+        <module>server-message</module>
+        <module>server-rest</module>
+        <module>server-tests</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

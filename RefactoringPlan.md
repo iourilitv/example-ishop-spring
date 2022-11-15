@@ -5,10 +5,11 @@
 ## Structure
 1. DONE. Create modules: 
    - common (common entities, utils);
-   - db (datasource, db migration);
-   - core (backend);
-   - rest-api (endpoints and swagger docs);
-   - message (notification services);
+   - notification (users, administrator notification services);
+   - server/server-core (backend);
+   - server/server-db (datasource, db migration);
+   - server/server-message (notification services);
+   - server/server-rest (endpoints and swagger docs);
+   - server/server-tests (integration tests).
    - web-ui (user, administrator web gui);
-   - tests (integration tests).
 2. 

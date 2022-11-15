@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>example-ishop-spring-web-ui</artifactId>
-    <description>User, administrator web gui app</description>
+    <artifactId>notification</artifactId>
+    <description>Users, administrator notification services</description>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
